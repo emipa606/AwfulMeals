@@ -1,52 +1,85 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- Pemmican -->    
-      <ThingDef ParentName="OrganicProductBase">
-      <defName>CAN_InsectPemmican</defName>
-      <label>insect pemmican</label>
-      <thingClass>ThingWithComps</thingClass>
-      <thingCategories>
-        <li>Foods</li>
-      </thingCategories>
-      <description>A preserved mashed mixture of insect fat and plant food. Tastes bland, but not offensive. It lasts a very long time without refrigeration.</description>
-      <graphicData>
-        <texPath>CAN_InsectPemmican</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-      </graphicData>
-      <socialPropernessMatters>true</socialPropernessMatters>
-      <statBases>
-        <MarketValue>1.4</MarketValue>
-        <Mass>0.018</Mass>
-        <WorkToMake>700</WorkToMake>
-      <DeteriorationRate>2</DeteriorationRate>
-      <Nutrition>0.05</Nutrition>
-      </statBases>
-      <ingestible>
-        <foodType>Meal</foodType>
-        <preferability>MealSimple</preferability>
-        <ingestEffect>EatVegetarian</ingestEffect>
-        <ingestSound>Meal_Eat</ingestSound>
-        <optimalityOffsetHumanlikes>6</optimalityOffsetHumanlikes>
-      </ingestible>
-      <tradeability>Sellable</tradeability>
-      <comps>
-        <li Class="CompProperties_Rottable">
-          <daysToRotStart>70</daysToRotStart>
-          <rotDestroys>true</rotDestroys>
-        </li>
-        <li Class="CompProperties_Ingredients" />
-        <li Class="CompProperties_FoodPoisonable" />
-      </comps>
-    </ThingDef>
-  
-	<!-- Survival Meal -->    
-    <ThingDef ParentName="MealBase">
-    <defName>CAN_InsectMealSurvivalPack</defName>
-    <label>packaged survival insect meal</label>
-    <description>A high-quality insect packaged meal, manufactured for use in survival situations.</description>
+	<!-- Pemmican -->
+	<ThingDef ParentName="OrganicProductBase">
+    <defName>CAN_CannibalPemmican</defName>
+    <label>cannibal pemmican</label>
+    <thingClass>ThingWithComps</thingClass>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <description>A preserved mashed mixture of human fat and plant food. Tastes bland, but not offensive. It lasts a very long time without refrigeration.</description>
     <graphicData>
-      <texPath>CAN_InsectSurvivalPack</texPath>
+      <texPath>CAN_CannibalPemmican</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+      <Mass>0.018</Mass>
+      <WorkToMake>700</WorkToMake>
+	<DeteriorationRate>2</DeteriorationRate>
+    <Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+	  <optimalityOffsetHumanlikes>6</optimalityOffsetHumanlikes>
+	</ingestible>
+	<tradeability>Sellable</tradeability>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>70</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+  </ThingDef>
+  
+  	<!-- Kibble -->
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>CAN_CannibalKibble</defName>
+    <label>cannibal kibble</label>
+    <description>Animal feed made from human and plant sources. Humans can eat it, but they really, really don't like it.</description>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>CAN_CannibalKibble</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+      <Mass>0.015</Mass>
+      <Nutrition>0.05</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <ingestible>
+      <foodType>Kibble</foodType>
+      <preferability>RawBad</preferability>
+			<tasteThought>AteKibble</tasteThought>
+			<optimalityOffsetHumanlikes>-30</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>15</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Ingredients" />
+    </comps>
+  </ThingDef>
+  
+	<!-- Survival Meal -->
+	<ThingDef ParentName="MealBase">
+    <defName>CAN_CannibalMealSurvivalPack</defName>
+    <label>packaged survival cannibal meal</label>
+    <description>A high-quality cannibal packaged meal, manufactured for use in survival situations.</description>
+    <graphicData>
+      <texPath>CAN_CannibalSurvivalPack</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -54,7 +87,7 @@
       <MarketValue>24</MarketValue>
       <Mass>0.3</Mass>
       <WorkToMake>450</WorkToMake>
-       <Nutrition>0.9</Nutrition>
+ 	  <Nutrition>0.9</Nutrition>
     </statBases>
     <ingestible>
       <preferability>MealSimple</preferability>
@@ -64,60 +97,60 @@
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
     <tradeability>Sellable</tradeability>
-    </ThingDef>
-
-	<!-- Simple Meal -->    
-	<ThingDef ParentName="MealRottable">
-		<defName>CAN_InsectMealSimple</defName>
-		<label>simple insect meal</label>
-		<description>A simple meal quickly cooked from insect meat and a few ingredients.</description>
-		<graphicData>
-		  <texPath>CAN_InsectSimple</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<statBases>
-		  <MarketValue>15</MarketValue>
-		  <WorkToMake>300</WorkToMake>
-		  <Nutrition>0.9</Nutrition>
-		</statBases>
-		<ingestible>
-		  <preferability>MealSimple</preferability>
-		  <ingestEffect>EatVegetarian</ingestEffect>
-		  <ingestSound>Meal_Eat</ingestSound>
-		</ingestible>
-		<tradeability>Sellable</tradeability>
 	</ThingDef>
 
-	<!-- Fine Meal -->    
-    <ThingDef ParentName="MealRottable">
-    <defName>CAN_InsectMealFine</defName>
-    <label>fine insect meal</label>
-    <description>A complex dish assembled with care from insect meat and a wide selection of ingredients.</description>
+	<!-- Simple Meal -->
+	<ThingDef ParentName="MealRottable">
+    <defName>CAN_CannibalMealSimple</defName>
+    <label>simple cannibal meal</label>
+    <description>A simple meal quickly cooked from human meat and a few ingredients.</description>
     <graphicData>
-      <texPath>CAN_InsectFine</texPath>
+      <texPath>CAN_CannibalSimple</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>300</WorkToMake>
+  	  <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+	<tradeability>Sellable</tradeability>
+	</ThingDef>
+
+	<!-- Fine Meal -->
+	<ThingDef ParentName="MealRottable">
+    <defName>CAN_CannibalMealFine</defName>
+    <label>fine cannibal meal</label>
+    <description>A complex dish assembled with care from human meat and a wide selection of ingredients.</description>
+    <graphicData>
+      <texPath>CAN_CannibalFine</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>20</MarketValue>
       <WorkToMake>450</WorkToMake>
-        <Nutrition>0.9</Nutrition>
+  	  <Nutrition>0.9</Nutrition>
     </statBases>
     <ingestible>
       <preferability>MealFine</preferability>
-      <tasteThought>AteFineMeal</tasteThought>
+	  <tasteThought>AteFineMeal</tasteThought>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
-    <tradeability>Sellable</tradeability>
-    </ThingDef>
+	<tradeability>Sellable</tradeability>
+	</ThingDef>
 
-	<!-- Lavish Meal -->    
-    <ThingDef ParentName="MealRottable">
-    <defName>CAN_InsectMealLavish</defName>
-    <label>lavish insect meal</label>
-    <description>A masterpiece of the insect culinary arts, this meal nourishes the body, mind, and soul.</description>
+	<!-- Lavish Meal -->
+	<ThingDef ParentName="MealRottable">
+    <defName>CAN_CannibalMealLavish</defName>
+    <label>lavish cannibal meal</label>
+    <description>A masterpiece of the cannibal culinary arts, this meal nourishes the body, mind, and soul.</description>
     <graphicData>
-      <texPath>CAN_InsectLavish</texPath>
+      <texPath>CAN_CannibalLavish</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -127,11 +160,11 @@
     </statBases>
     <ingestible>
       <preferability>MealLavish</preferability>
-      <tasteThought>AteLavishMeal</tasteThought>
+	  <tasteThought>AteLavishMeal</tasteThought>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
-    <tradeability>Sellable</tradeability>
-    </ThingDef>
+	<tradeability>Sellable</tradeability>
+	</ThingDef>
 
 	</Defs>
