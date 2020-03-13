@@ -67,7 +67,7 @@
     </ThingDef>
 
 	<!-- Simple Meal -->    
-	<ThingDef ParentName="MealCooked">
+	<ThingDef ParentName="MealRottable">
 		<defName>CAN_InsectMealSimple</defName>
 		<label>simple insect meal</label>
 		<description>A simple meal quickly cooked from insect meat and a few ingredients.</description>
@@ -89,7 +89,7 @@
 	</ThingDef>
 
 	<!-- Fine Meal -->    
-    <ThingDef ParentName="MealCooked">
+    <ThingDef ParentName="MealRottable">
     <defName>CAN_InsectMealFine</defName>
     <label>fine insect meal</label>
     <description>A complex dish assembled with care from insect meat and a wide selection of ingredients.</description>
@@ -112,7 +112,7 @@
     </ThingDef>
 
 	<!-- Lavish Meal -->    
-    <ThingDef ParentName="MealCooked">
+    <ThingDef ParentName="MealRottable">
     <defName>CAN_InsectMealLavish</defName>
     <label>lavish insect meal</label>
     <description>A masterpiece of the insect culinary arts, this meal nourishes the body, mind, and soul.</description>
