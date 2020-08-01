@@ -1,47 +1,45 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<!-- Pemmican -->    
-      <ThingDef ParentName="OrganicProductBase">
-      <defName>CAN_InsectPemmican</defName>
-      <label>insect pemmican</label>
-      <thingClass>ThingWithComps</thingClass>
-      <thingCategories>
-        <li>Foods</li>
-      </thingCategories>
-      <description>A preserved mashed mixture of insect fat and plant food. Tastes bland, but not offensive. It lasts a very long time without refrigeration.</description>
-      <graphicData>
-        <texPath>CAN_InsectPemmican</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-      </graphicData>
-      <socialPropernessMatters>true</socialPropernessMatters>
-      <statBases>
-        <MarketValue>1.4</MarketValue>
-        <Mass>0.018</Mass>
-        <WorkToMake>700</WorkToMake>
+  <!-- Pemmican -->
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>CAN_InsectPemmican</defName>
+    <label>insect pemmican</label>
+    <thingClass>ThingWithComps</thingClass>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <description>A preserved mashed mixture of insect fat and plant food. Tastes bland, but not offensive. It lasts a very long time without refrigeration.</description>
+    <graphicData>
+      <texPath>CAN_InsectPemmican</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+      <Mass>0.018</Mass>
+      <WorkToMake>700</WorkToMake>
       <DeteriorationRate>2</DeteriorationRate>
       <Nutrition>0.05</Nutrition>
-      </statBases>
-      <ingestible>
-        <foodType>Meal</foodType>
-        <preferability>MealSimple</preferability>
-        <ingestEffect>EatVegetarian</ingestEffect>
-        <ingestSound>Meal_Eat</ingestSound>
-        <optimalityOffsetHumanlikes>6</optimalityOffsetHumanlikes>
-      </ingestible>
-      <tradeability>Sellable</tradeability>
-      <comps>
-        <li Class="CompProperties_Rottable">
-          <daysToRotStart>70</daysToRotStart>
-          <rotDestroys>true</rotDestroys>
-        </li>
-        <li Class="CompProperties_Ingredients" />
-        <li Class="CompProperties_FoodPoisonable" />
-      </comps>
-    </ThingDef>
-  
-	<!-- Survival Meal -->    
-    <ThingDef ParentName="MealBase">
+    </statBases>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <optimalityOffsetHumanlikes>6</optimalityOffsetHumanlikes>
+    </ingestible>
+    <tradeability>Sellable</tradeability>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>70</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+  </ThingDef>
+  <!-- Survival Meal -->
+  <ThingDef ParentName="MealBase">
     <defName>CAN_InsectMealSurvivalPack</defName>
     <label>packaged survival insect meal</label>
     <description>A high-quality insect packaged meal, manufactured for use in survival situations.</description>
@@ -54,7 +52,7 @@
       <MarketValue>24</MarketValue>
       <Mass>0.3</Mass>
       <WorkToMake>450</WorkToMake>
-       <Nutrition>0.9</Nutrition>
+      <Nutrition>0.9</Nutrition>
     </statBases>
     <ingestible>
       <preferability>MealSimple</preferability>
@@ -64,32 +62,30 @@
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
     <tradeability>Sellable</tradeability>
-    </ThingDef>
-
-	<!-- Simple Meal -->    
-	<ThingDef ParentName="MealRottable">
-		<defName>CAN_InsectMealSimple</defName>
-		<label>simple insect meal</label>
-		<description>A simple meal quickly cooked from insect meat and a few ingredients.</description>
-		<graphicData>
-		  <texPath>CAN_InsectSimple</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<statBases>
-		  <MarketValue>15</MarketValue>
-		  <WorkToMake>300</WorkToMake>
-		  <Nutrition>0.9</Nutrition>
-		</statBases>
-		<ingestible>
-		  <preferability>MealSimple</preferability>
-		  <ingestEffect>EatVegetarian</ingestEffect>
-		  <ingestSound>Meal_Eat</ingestSound>
-		</ingestible>
-		<tradeability>Sellable</tradeability>
-	</ThingDef>
-
-	<!-- Fine Meal -->    
-    <ThingDef ParentName="MealRottable">
+  </ThingDef>
+  <!-- Simple Meal -->
+  <ThingDef ParentName="MealRottable">
+    <defName>CAN_InsectMealSimple</defName>
+    <label>simple insect meal</label>
+    <description>A simple meal quickly cooked from insect meat and a few ingredients.</description>
+    <graphicData>
+      <texPath>CAN_InsectSimple</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>300</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+  <!-- Fine Meal -->
+  <ThingDef ParentName="MealRottable">
     <defName>CAN_InsectMealFine</defName>
     <label>fine insect meal</label>
     <description>A complex dish assembled with care from insect meat and a wide selection of ingredients.</description>
@@ -100,7 +96,7 @@
     <statBases>
       <MarketValue>20</MarketValue>
       <WorkToMake>450</WorkToMake>
-        <Nutrition>0.9</Nutrition>
+      <Nutrition>0.9</Nutrition>
     </statBases>
     <ingestible>
       <preferability>MealFine</preferability>
@@ -109,10 +105,9 @@
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
     <tradeability>Sellable</tradeability>
-    </ThingDef>
-
-	<!-- Lavish Meal -->    
-    <ThingDef ParentName="MealRottable">
+  </ThingDef>
+  <!-- Lavish Meal -->
+  <ThingDef ParentName="MealRottable">
     <defName>CAN_InsectMealLavish</defName>
     <label>lavish insect meal</label>
     <description>A masterpiece of the insect culinary arts, this meal nourishes the body, mind, and soul.</description>
@@ -132,6 +127,5 @@
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
     <tradeability>Sellable</tradeability>
-    </ThingDef>
-
-	</Defs>
+  </ThingDef>
+</Defs>

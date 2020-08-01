@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pemmican -->
+
+  <CAN_InsectPemmican.label>insect pemmican</CAN_InsectPemmican.label>
+  <CAN_InsectPemmican.description>A preserved mashed mixture of insect fat and plant food. Tastes bland, but not offensive. It lasts a very long time without refrigeration.</CAN_InsectPemmican.description>
+
+
+  <!-- Survival Meal -->
+
+  <CAN_InsectMealSurvivalPack.label>packaged survival insect meal</CAN_InsectMealSurvivalPack.label>
+  <CAN_InsectMealSurvivalPack.description>A high-quality insect packaged meal, manufactured for use in survival situations.</CAN_InsectMealSurvivalPack.description>
+
+
+  <!-- Simple Meal -->
+
+  <CAN_InsectMealSimple.label>simple insect meal</CAN_InsectMealSimple.label>
+  <CAN_InsectMealSimple.description>A simple meal quickly cooked from insect meat and a few ingredients.</CAN_InsectMealSimple.description>
+
+
+  <!-- Fine Meal -->
+
+  <CAN_InsectMealFine.label>fine insect meal</CAN_InsectMealFine.label>
+  <CAN_InsectMealFine.description>A complex dish assembled with care from insect meat and a wide selection of ingredients.</CAN_InsectMealFine.description>
+
+
+  <!-- Lavish Meal -->
+
+  <CAN_InsectMealLavish.label>lavish insect meal</CAN_InsectMealLavish.label>
+  <CAN_InsectMealLavish.description>A masterpiece of the insect culinary arts, this meal nourishes the body, mind, and soul.</CAN_InsectMealLavish.description>
+
+
+</LanguageData>

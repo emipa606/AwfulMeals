@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Pemmican -->
+
+  <CAN_MakeInsectPemmican.label>make insect pemmican</CAN_MakeInsectPemmican.label>
+  <CAN_MakeInsectPemmican.description>Make Insect pemmican, a preserved combination of Insect meat and organic food. It doesn't taste amazing, but lasts a year without refrigeration.</CAN_MakeInsectPemmican.description>
+  <CAN_MakeInsectPemmican.jobString>Making pemmican.</CAN_MakeInsectPemmican.jobString>
+
+  <CAN_MakeInsectPemmicanCampfire.label>make insect pemmican</CAN_MakeInsectPemmicanCampfire.label>
+  <CAN_MakeInsectPemmicanCampfire.description>Make Insect pemmican, a preserved combination of Insect meat and organic food. It doesn't taste amazing, but lasts a year without refrigeration.</CAN_MakeInsectPemmicanCampfire.description>
+  <CAN_MakeInsectPemmicanCampfire.jobString>Making pemmican.</CAN_MakeInsectPemmicanCampfire.jobString>
+
+
+  <!-- Simple Meal -->
+
+  <CAN_CookInsectMealSimple.label>cook simple insect meal</CAN_CookInsectMealSimple.label>
+  <CAN_CookInsectMealSimple.description>Cooks a straightforward meal from Insect meat.</CAN_CookInsectMealSimple.description>
+  <CAN_CookInsectMealSimple.jobString>Cooking simple meal.</CAN_CookInsectMealSimple.jobString>
+
+  <CAN_CookInsectMealSimpleCampfire.label>cook simple insect meal</CAN_CookInsectMealSimpleCampfire.label>
+  <CAN_CookInsectMealSimpleCampfire.description>Cooks a straightforward meal from Insect meat.</CAN_CookInsectMealSimpleCampfire.description>
+  <CAN_CookInsectMealSimpleCampfire.jobString>Cooking simple meal.</CAN_CookInsectMealSimpleCampfire.jobString>
+
+
+  <!-- Fine Meal -->
+
+  <CAN_CookInsectMealFine.label>cook fine insect meal</CAN_CookInsectMealFine.label>
+  <CAN_CookInsectMealFine.description>Cooks a somewhat complex Insect meal from a combination of Insect meat and organic ingredients.</CAN_CookInsectMealFine.description>
+  <CAN_CookInsectMealFine.jobString>Cooking fine meal.</CAN_CookInsectMealFine.jobString>
+
+
+  <!-- Lavish Meal -->
+
+  <CAN_CookInsectMealLavish.label>cook lavish insect meal</CAN_CookInsectMealLavish.label>
+  <CAN_CookInsectMealLavish.description>Cooks a very complex Insect meal from a combination of Insect meat and organic ingredients. Much of the ingredients are wasted.</CAN_CookInsectMealLavish.description>
+  <CAN_CookInsectMealLavish.jobString>Cooking lavish meal.</CAN_CookInsectMealLavish.jobString>
+
+
+  <!-- Survival Meal -->
+
+  <CAN_CookInsectMealSurvival.label>cook packaged survival insect meal</CAN_CookInsectMealSurvival.label>
+  <CAN_CookInsectMealSurvival.description>Cooks a packaged survival Insect meal from a combination of Insect meat and organic ingredients. Much of the ingredients are wasted.</CAN_CookInsectMealSurvival.description>
+  <CAN_CookInsectMealSurvival.jobString>Cooking survival meal.</CAN_CookInsectMealSurvival.jobString>
+
+
+</LanguageData>

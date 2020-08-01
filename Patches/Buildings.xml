@@ -1,56 +1,53 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Patch> 
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/Defs/ThingDef[defName = "RGK_FueledStove"]</xpath>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>*/RecipeDef[@Name="CAN_CookInsectMealBase"]/recipeUsers</xpath>
-				<value>
-					<li>RGK_FueledStove</li>
-					<li>GL_ElectricStove</li>
-				</value>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>*/RecipeDef[Name="CAN_MakeInsectPemmican"]/recipeUsers</xpath>
-				<value>
-					<li>RGK_FueledStove</li>
-					<li>GL_ElectricStove</li>
-				</value>
-			</li>
-		</operations>
-	</Operation>	
-		
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/Defs/ThingDef[defName = "VFE_TableStoveLarge"]</xpath>
-			</li>		
-			<li Class="PatchOperationAdd">
-				<xpath>*/RecipeDef[@Name="CAN_CookInsectMealBase"</xpath>
-				<value>
-					<li>VFE_TableStoveLarge</li>
-				</value>
-			</li>			
-		</operations>
-	</Operation>	
-	
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>/Defs/ThingDef[defName = "VFE_TableButcherElectric"]</xpath>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>*/RecipeDef[defName="CAN_MakeInsectKibble"]/recipeUsers</xpath>
-				<value>
-					<li>VFE_TableButcherElectric</li>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-	
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "RGK_FueledStove"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/RecipeDef[@Name="CAN_CookInsectMealBase"]/recipeUsers</xpath>
+        <value>
+          <li>RGK_FueledStove</li>
+          <li>GL_ElectricStove</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/RecipeDef[Name="CAN_MakeInsectPemmican"]/recipeUsers</xpath>
+        <value>
+          <li>RGK_FueledStove</li>
+          <li>GL_ElectricStove</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "VFE_TableStoveLarge"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/RecipeDef[@Name="CAN_CookInsectMealBase"</xpath>
+        <value>
+          <li>VFE_TableStoveLarge</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName = "VFE_TableButcherElectric"]</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/RecipeDef[defName="CAN_MakeInsectKibble"]/recipeUsers</xpath>
+        <value>
+          <li>VFE_TableButcherElectric</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
 </Patch>
