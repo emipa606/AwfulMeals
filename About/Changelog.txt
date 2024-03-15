@@ -1,5 +1,8 @@
 # Changelog for AwfulMeals
 
+1.5.0 - Mod updated for 1.5 and passed autotests
+
+
 1.4.2 - Added support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657]Vanilla Achievements Expanded[/url]
 
 
