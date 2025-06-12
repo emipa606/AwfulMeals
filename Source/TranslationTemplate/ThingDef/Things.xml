@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: fine insect meal -->
+  <CAN_InsectMealFine.label>fine insect meal</CAN_InsectMealFine.label>
+  <!-- EN: A complex dish assembled with care from insect meat and a wide selection of ingredients. -->
+  <CAN_InsectMealFine.description>A complex dish assembled with care from insect meat and a wide selection of ingredients.</CAN_InsectMealFine.description>
+  <!-- EN: lavish insect meal -->
+  <CAN_InsectMealLavish.label>lavish insect meal</CAN_InsectMealLavish.label>
+  <!-- EN: A masterpiece of the insect culinary arts, this meal nourishes the body, mind, and soul. -->
+  <CAN_InsectMealLavish.description>A masterpiece of the insect culinary arts, this meal nourishes the body, mind, and soul.</CAN_InsectMealLavish.description>
+  <!-- EN: simple insect meal -->
+  <CAN_InsectMealSimple.label>simple insect meal</CAN_InsectMealSimple.label>
+  <!-- EN: A simple meal quickly cooked from insect meat and a few ingredients. -->
+  <CAN_InsectMealSimple.description>A simple meal quickly cooked from insect meat and a few ingredients.</CAN_InsectMealSimple.description>
+  <!-- EN: packaged survival insect meal -->
+  <CAN_InsectMealSurvivalPack.label>packaged survival insect meal</CAN_InsectMealSurvivalPack.label>
+  <!-- EN: A high-quality insect packaged meal, manufactured for use in survival situations. -->
+  <CAN_InsectMealSurvivalPack.description>A high-quality insect packaged meal, manufactured for use in survival situations.</CAN_InsectMealSurvivalPack.description>
+  <!-- EN: insect pemmican -->
+  <CAN_InsectPemmican.label>insect pemmican</CAN_InsectPemmican.label>
+  <!-- EN: A preserved mashed mixture of insect fat and plant food. Tastes bland, but not offensive. It lasts a very long time without refrigeration. -->
+  <CAN_InsectPemmican.description>A preserved mashed mixture of insect fat and plant food. Tastes bland, but not offensive. It lasts a very long time without refrigeration.</CAN_InsectPemmican.description>
+</LanguageData>
